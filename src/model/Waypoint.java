@@ -1,21 +1,21 @@
 package model;
 
-public class Waypoints {
+public class Waypoint {
 
     /**
      * 
      */
     public String name;
     public String address;
-    public String period;
-    public String description;
     public Double prices;
     public String hours;
+    public String period;
+    public String description;
 
     /**
      * 
      */
-    public Waypoints(){
+    public Waypoint(){
 
     }
 

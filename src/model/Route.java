@@ -10,7 +10,8 @@ public class Route {
     public String startPoint;
     public String stopPoint;
     public List<Route> routes;
-    public List<Waypoints> waypoints;
+    public List<Waypoint> waypoints;
+    public Waypoint waypoint;
 
     /**
      * 
@@ -33,10 +34,14 @@ public class Route {
         return stopPoint;
     }
 
+    public Waypoint getWaypoint() {
+        return waypoint;
+    }
+
     /**
      * @return the waypoints
      */
-    public List<Waypoints> getWaypoints() {
+    public List<Waypoint> getWaypoints() {
         return waypoints;
     }
 
@@ -71,7 +76,7 @@ public class Route {
     /**
      * @param waypoints the waypoints to set
      */
-    public void setWaypoints(List<Waypoints> waypoints) {
+    public void setWaypoints(List<Waypoint> waypoints) {
         this.waypoints = waypoints;
     }
 }
