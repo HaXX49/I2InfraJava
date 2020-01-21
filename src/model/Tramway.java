@@ -1,4 +1,6 @@
-public class Tramway extends Transports{
+package model;
+
+public class Tramway extends Transports {
     
     /**
      * 

@@ -1,4 +1,6 @@
-public class Waypoints{
+package model;
+
+public class Waypoints {
 
     /**
      * 

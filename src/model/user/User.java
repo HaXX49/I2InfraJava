@@ -1,4 +1,4 @@
-package user;
+package model.user;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,11 @@ public class User {
      * Attributs
      */
     public String username;
+    public String name;
+    public String surname;
     public String password;
+    public String mailAdress;
+    public List<String> interests; 
     public List<User> users = new ArrayList<User>();
 
     /**

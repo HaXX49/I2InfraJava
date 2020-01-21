@@ -1,4 +1,6 @@
-public class Monument extends Waypoints{
+package model;
+
+public class Monument extends Waypoints {
 
     /**
      * 
